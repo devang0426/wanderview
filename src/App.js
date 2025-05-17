@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
+import Gallery from './components/Gallery';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      <header className="container mx-auto px-4 py-8">
+        <h1 className="text-4xl font-bold text-center text-gray-800">3D Wanderlust Gallery</h1>
+        <p className="text-center text-gray-600 mt-2">Explore amazing destinations in an immersive 3D experience</p>
       </header>
+      <main>
+        <Gallery />
+      </main>
+      <footer className="container mx-auto px-4 py-8 text-center text-gray-600">
+        <p>© 2023 3D Wanderlust Gallery. All rights reserved.</p>
+      </footer>
     </div>
   );
 }
