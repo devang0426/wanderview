@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Wanderlust Gallery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An immersive web application designed to showcase travel destinations through a captivating 3D card gallery.
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+Wanderlust Gallery provides a visually engaging experience for exploring various travel destinations. Users can interact with beautifully rendered 3D cards, each representing a unique location. Clicking on a card triggers a stunning 3D-animated modal that reveals detailed information about the destination. The application includes features for filtering destinations by region and allows users to mark their favorite places.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*   **Immersive 3D Card Gallery:** Explore destinations presented as interactive 3D cards.
+*   **3D Animated Modals:** Click on cards to reveal detailed destination information in a smooth, animated modal.
+*   **Region Filtering:** Easily filter destinations based on geographical regions.
+*   **Favorite Destinations:** Mark and keep track of your preferred travel spots.
+*   **Visually Engaging Design:** Utilizes 3D animations and effects for a captivating user interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+*   React
+*   GSAP (for animations)
+*   Tailwind CSS (for styling)
+*   (Add any other significant technologies or libraries used)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Make sure you have Node.js and npm (or yarn) installed on your machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*   [Node.js](https://nodejs.org/)
+*   [npm](https://www.npmjs.com/get-npm) or [yarn](https://yarnpkg.com/)
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/devang0426/wanderview.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd award
+    ```
+3.  Install dependencies:
+    ```bash
+    npm install
+    ```
+    or
+    ```bash
+    yarn install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Running the Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run the application in development mode:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm start
+```
